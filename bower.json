@@ -1,0 +1,21 @@
+{
+  "name": "mygithub",
+  "description": "Get and Display user github info",
+  "main": "index.js",
+  "authors": [
+    "Emanuel Quimper"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
