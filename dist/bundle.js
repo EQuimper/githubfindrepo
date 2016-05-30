@@ -61,13 +61,15 @@
 
 	var _reactDom = __webpack_require__(159);
 
-	var _reactDom2 = _interopRequireDefault(_reactDom);
+	/*>>>>>>=============================================<<<<<<*/
 
 	var _componentsAppJsx = __webpack_require__(160);
 
 	var _componentsAppJsx2 = _interopRequireDefault(_componentsAppJsx);
 
-	_reactDom2['default'].render(_react2['default'].createElement(_componentsAppJsx2['default'], null), document.getElementById('app'));
+	/*>>>>>>=============================================<<<<<<*/
+
+	(0, _reactDom.render)(_react2['default'].createElement(_componentsAppJsx2['default'], null), document.getElementById('app'));
 
 /***/ },
 /* 2 */
@@ -19694,9 +19696,7 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _reactDom = __webpack_require__(159);
-
-	var _reactDom2 = _interopRequireDefault(_reactDom);
+	/*>>>>>>=============================================<<<<<<*/
 
 	var _githubProfileJsx = __webpack_require__(161);
 
@@ -19705,6 +19705,8 @@
 	var _githubSearchJsx = __webpack_require__(164);
 
 	var _githubSearchJsx2 = _interopRequireDefault(_githubSearchJsx);
+
+	/*>>>>>>=============================================<<<<<<*/
 
 	var App = (function (_Component) {
 		_inherits(App, _Component);
@@ -19827,6 +19829,8 @@
 
 	var _RepoListJsx2 = _interopRequireDefault(_RepoListJsx);
 
+	/*>>>>>>=============================================<<<<<<*/
+
 	var Profile = (function (_Component) {
 		_inherits(Profile, _Component);
 
@@ -19875,13 +19879,13 @@
 											'span',
 											{ className: 'label label-primary' },
 											this.props.userData.public_repos,
-											' Repos'
+											'Repos'
 										),
 										_react2['default'].createElement(
 											'span',
 											{ className: 'label label-success' },
 											this.props.userData.public_gists,
-											' Gists'
+											'Gists'
 										),
 										_react2['default'].createElement(
 											'span',
@@ -19893,7 +19897,7 @@
 											'span',
 											{ className: 'label label-danger' },
 											this.props.userData.following,
-											' Following'
+											'Following'
 										)
 									)
 								),
@@ -19995,9 +19999,13 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
+	/*>>>>>>=============================================<<<<<<*/
+
 	var _RepoJsx = __webpack_require__(163);
 
 	var _RepoJsx2 = _interopRequireDefault(_RepoJsx);
+
+	/*>>>>>>=============================================<<<<<<*/
 
 	var RepoList = (function (_Component) {
 		_inherits(RepoList, _Component);
@@ -20059,6 +20067,8 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
+	/*>>>>>>=============================================<<<<<<*/
+
 	var Repo = (function (_Component) {
 		_inherits(Repo, _Component);
 
@@ -20117,6 +20127,8 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
+	/*>>>>>>=============================================<<<<<<*/
+
 	var Search = (function (_Component) {
 		_inherits(Search, _Component);
 
@@ -20141,7 +20153,6 @@
 		}, {
 			key: 'render',
 			value: function render() {
-
 				return _react2['default'].createElement(
 					'div',
 					null,
