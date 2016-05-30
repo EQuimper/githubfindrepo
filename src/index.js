@@ -1,8 +1,12 @@
 import React from 'react';
-import ReacDOM from 'react-dom';
-import App from './components/App.jsx';
+import { render } from 'react-dom';
+/*>>>>>>=============================================<<<<<<*/
 
-ReacDOM.render(
+import App from './components/App.jsx';
+/*>>>>>>=============================================<<<<<<*/
+
+
+render(
 		<App />,
 		document.getElementById('app')
 );
