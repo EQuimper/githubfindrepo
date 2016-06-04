@@ -78,4 +78,4 @@ App.defaultProps = {
 	clientSecret: '50b1ca35770156db069b78e39e6584ea54f20d34'
 };
 
-export default App
+export default App;
