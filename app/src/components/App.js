@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 /*>>>>>>=============================================<<<<<<*/
 
-import Profile from './github/Profile.jsx';
-import Search from './github/Search.jsx';
+import Profile from './github/Profile.js';
+import Search from './github/Search.js';
 /*>>>>>>=============================================<<<<<<*/
 
 class App extends Component{
